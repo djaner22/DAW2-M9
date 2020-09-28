@@ -1,0 +1,29 @@
+* {
+    outline: 1px solid red !important;
+ 
+ }
+ .title {
+     margin: 0px 0px 40px;
+     margin-left: 30px;
+ }
+ .content {
+    display: flex;
+    outline: 1px solid rgb(108, 255, 10) !important;
+    margin-left: 30px;
+ }
+ 
+ .image {
+    flex: 1;
+ }
+ 
+ .description {
+    flex: 2;
+    margin-left: 20px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+ }
+ 
+ img {
+    width: 100%;
+ }
+ 
