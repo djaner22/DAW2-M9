@@ -1,0 +1,92 @@
+@font-face{
+    font-family: "Main title";
+    src: url(../fonts/Lato-Hairline.ttf) format("truetype");
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    font-family: Text, sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+.logo {
+    flex: 1;
+}
+
+.title {
+    flex: 4;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.items-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.item {
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+
+
+.title > h1{
+font-family: "Main title", sans-serif;
+font-size: 2.5rem;
+color: #bcbbbb;
+padding-top: 0.5rem;
+}
+
+.tiitle > h3 {
+    font-size: small;
+
+}
+h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #bcbbbb;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    text-align: 200px;
+}
+
+.item > h3 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #747704;
+}
+
+.item > a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: smaller;
+    color: #747704
+}
+
+/* Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.hr {
+    border: thin solid #bcbbbb;
+    margin-bottom: 1.5rem;
+}
+
+.body{
+    padding: 1rem;
+}
+
+.img {
+    max-width: 100%;
+}
