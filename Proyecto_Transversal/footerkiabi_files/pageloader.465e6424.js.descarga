@@ -1,0 +1,2 @@
+/* uglify - 2020-11-02 09:11:52 - */
+function pageIsLoading(){0==$(".spinner-page").size()&&$("body").append('<div class="spinner-page fixed"><div class="content-spinner"><svg id="LoaderIcon" class="allPage"><use xlink:href="/template-globals-responsive/images/loadericons/kiabiloader.svg#kiabiLoader"/></svg><div></div>'),$("body").css("overflow","hidden")}function pageIsLoaded(){$(".spinner-page").remove(),$("body").css("overflow","inherit")}
