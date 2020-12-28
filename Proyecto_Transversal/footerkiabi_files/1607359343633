@@ -1,1 +1,0 @@
-if (window.queueit && window.queueit['footasylum'] && window.queueit['footasylum']['prodqueue']) { window.queueit['footasylum']['prodqueue'].enqueue({"inQueue":true,"redirect":false,"cookieValue":"EventId=prodqueue&QueueId=bd6c1832-3b2e-4da9-8f5c-119736c0e0b9&RedirectType=safetynet&IssueTime=1607360647&Hash=115c2e7082bf18ca10fb0f4298a54599ad12bde7ce26ea32a7234ba238da6527"}); }

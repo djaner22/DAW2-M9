@@ -1,2 +1,0 @@
-/* uglify - 2020-11-02 09:11:52 - */
-CustomerGuest=function(){return function(){$("#goToTunnelAsGuestBtn ").click(function(){$("#goToTunnelAsGuestForm").submit()})}()},$(document).ready(function(){new CustomerGuest});

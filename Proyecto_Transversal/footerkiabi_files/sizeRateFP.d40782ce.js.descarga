@@ -1,2 +1,0 @@
-/* uglify - 2020-11-02 09:11:52 - */
-function showSizeRate(){0<$("#BVSizeRate").size()&&$("#BVSizeRate").fadeIn(200)}
