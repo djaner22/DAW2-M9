@@ -1,3 +1,40 @@
+.header{
+    width: auto;
+    line-height: 1.8;
+    background-color: black;
+}
+.txt-junno{
+    margin-left: 10%;
+    color: white;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    display: inline-block;
+}
+.opciones{
+    color: white;
+    font-size: 11px;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    display: inline-block;
+    float: right;
+    margin-right: 10%;
+} 
+.account{
+    display: inline-block;
+    padding-right: 20px;
+}
+.lang{
+    display: inline-block;
+    padding-right: 20px;
+}
+.currency{
+    display: inline-block;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------------- */
 .container {
     width: auto;
     margin: auto;
