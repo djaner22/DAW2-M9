@@ -1,0 +1,355 @@
+.container {
+    width: auto;
+    margin: auto;
+    
+}
+
+.img {
+    width: 100%;
+    height: 550px;
+}
+
+.img-bg {
+    background-image: url("../img/portada.jpg");
+    background-size: cover;
+}
+
+
+.main-text {
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    color: #ffffff;
+    text-align: left;
+    padding: 100px 600px 0px 0px;
+    
+}
+
+.main-text > h3 {
+    font-size: 50px;
+    padding: 0px 0px 0px 0px;
+}
+
+.main-text > p {
+
+    width: 550px;
+    margin: auto;
+    display: flex;
+    font-size: 20px;
+
+}
+
+.button {
+    
+    padding: 9px 17px 9px 17px;
+    color: black;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+/* ______________________________________________________________
+ */
+
+
+.ofertas{
+    background-color: white;
+    width: 80%;
+    height: 300px;
+    margin-top: 50px;;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+ .oferta1{
+    background-image: url("../img/oferta1.jpg");
+    width: 45%;
+    height: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.oferta2{
+    background-image: url("../img/oferta2.jpg");
+    width: 20%;
+    height: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.oferta3{
+    background-image: url("../img/oferta3.jpg");
+    width: 20%;
+    height: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+} 
+.oferta1> h4 {
+    font-size: 22px;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 0px;
+    position: absolute;
+    left: 13%;
+    top: 120%;
+}
+.oferta1> h5 {
+    font-size: 22px;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 0px;
+    position: absolute;
+    left: 13%;
+    top: 123%;
+}
+.oferta1> h6 {
+    font-size: 10px;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 0px;
+    position: absolute;
+    left: 13%;
+    top: 129%;
+}
+.button-ofertas1{
+    padding: 7px 20px 7px 20px;
+    color: black;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    position: absolute;
+    left: 13%;
+    top: 137%;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+}
+.oferta2> h4 {
+    font-size: 22px;
+    color: white;
+    line-height: 0px;
+    position: absolute;
+    left: 52%;
+    top: 132%;
+}
+.oferta2> h5 {
+    font-size: 22px;
+    color: white;
+    line-height: 0px;
+    position: absolute;
+    left: 52%;
+    top: 135%;
+}
+.button-ofertas2{
+    padding: 7px 20px 7px 20px;
+    color:white;
+    font-size: 10px;
+    position: absolute;
+    left: 50%;
+    top: 145%;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+}
+.oferta3> h4 {
+    font-size: 22px;
+    color: white;
+    line-height: 0px;
+    position: absolute;
+    left: 71%;
+    top: 132%;
+}
+.oferta3> h5 {
+    font-size: 22px;
+    color: white;
+    line-height: 0px;
+    position: absolute;
+    left: 71%;
+    top: 134%;
+}
+.button-ofertas3{
+    padding: 7px 20px 7px 20px;
+    color:white;
+    font-size: 10px;
+    position: absolute;
+    left: 70%;
+    top: 145%;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+}
+
+/* ___________________________________________________________________________
+ */
+
+ .new-products{
+    background-color: black;
+    width: 80%;
+    height: 800px;
+    margin-left: 10%;
+    margin-top: 1%;
+ }
+ .title {
+     background-color: blue;
+     width: 80%;
+     height: 80px;
+     margin-left: 10%;
+     text-align: center;
+     margin-bottom: -1%;
+ }
+ .new-shoes{
+    background-color: green;
+    width: 80%;
+    height: 704px;
+    padding-right: 214px
+ }
+ .new-shoes1{
+    background-image: url("../img/oferta3.jpg");
+    width: 20%;
+    height: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+} 
+.new-shoes2{
+    background-image: url("../img/oferta3.jpg");
+    width: 20%;
+    height: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+} 
+.new-shoes3{
+    background-image: url("../img/oferta3.jpg");
+    width: 20%;
+    height: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+} 
+.new-shoes4{
+    background-image: url("../img/oferta3.jpg");
+    width: 20%;
+    height: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+} 
+.new-shoes5{
+    background-image: url("../img/oferta3.jpg");
+    width: 20%;
+    height: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+} 
+
+/* ------------------------------------------------------------------------------- */
+
+.sudaderas{
+    background-color: white;
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+    margin-top: 1%;
+ }
+
+ .sudadera-men{
+    background-image: url(../img/sudaderamen.jpg);
+    width: 29%;
+    height: 425px;
+    padding-left: 12px;
+    padding-right: 14px;
+    display: inline-block;
+    margin-right: 15px;
+    padding-bottom: 25px;
+}
+
+.sudadera-women{
+    background-image: url(../img/sudaderawomen.jpg);
+    width: 29%;
+    height: 425px;
+    padding-left: 11px;
+    padding-right: 14px;
+    display: inline-block;
+    margin-right: 15px;
+    padding-bottom: 25px;
+}
+.sudadera-tot{
+    background-color: white;
+    width: 30%;
+    height: 425px;
+    display: inline-block;
+    padding-bottom: 25px;
+}
+.running{
+    background-image: url(../img/sudadera.shoes.jpg);
+    width: 100%;
+    height: 185px;
+    padding-left: 39px;
+    padding-bottom: 29px;
+}
+.accesoris{
+    background-image: url(../img/sudadera-shoes2.jpg);
+    width: 100%;
+    height: 183px;
+    padding-left: 39px;
+    padding-bottom: 33px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.button-sudaderamen{
+    
+    padding: 6px 20px 6px 20px;
+    color: black;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    position: absolute;
+    left: 20%;
+    top: 331%;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+}
+.button-sudaderawomen{
+    
+    padding: 6px 20px 6px 20px;
+    color: black;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    position: absolute;
+    left: 46%;
+    top: 331%;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+}
+.button-sudaderarunning{
+    
+    padding: 6px 20px 6px 20px;
+    color: black;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    position: absolute;
+    left: 74%;
+    top: 308%;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+}
+.button-sudaderaaccessories{
+    
+    padding: 6px 20px 6px 20px;
+    color: black;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    position: absolute;
+    left: 72%;
+    top: 346%;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+}

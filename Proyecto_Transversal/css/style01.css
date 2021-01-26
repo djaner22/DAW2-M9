@@ -1,4 +1,4 @@
-ul {
+.ul_menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,42 +22,3 @@ ul {
 
 
 
- /*   
-.container {
-    width: 800px;
-    margin: auto;
-    font-family: Text, sans-serif;
-}
-
-
-.items-container{
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.item {
-    text-align: center;
-    width: 200px;
-    margin: auto;
-    padding-bottom: 1rem;
-}
-
-
-
-.tiitle > h3 {
-    font-size: small;
-
-}
-
-.item > h3 {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: smaller;
-    color: black
-}
-
-.item  {
-    width: 50px; height: 50px;
-}
-*/
