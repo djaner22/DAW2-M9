@@ -1,7 +1,35 @@
+body{
+margin: 0%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-2-5 {width: 20%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+  
 .header{
     width: auto;
-    line-height: 1.8;
-    background-color: black;
+    line-height: 1.5;
+    background-color: #191919;
 }
 .txt-junno{
     margin-left: 10%;
@@ -29,50 +57,160 @@
 .currency{
     display: inline-block;
 }
+/* ----------------------------------------------------------------------- */
 
+.menu{
+    width: 100%;
+    background-color: white;
+    margin:auto;
+    
+}
+.menu-dalt{
+    width: 80%;
+    margin:auto;
+    background-color: white;
+    padding-top: 49px;
+    margin-bottom: -12px;
+    position: relative;
+}
+.logo{
+    background-image: url(../img/logo.png);
+    width: 100px;
+    height: 26px;
+    display: inline-block;
+    position: absolute;
+    margin-top: -31px;
+    margin-left: -1px;
+}
+ .search{
+    background-image: url(../img/search.png);
+    width: 422px;
+    height: 37px;
+    display: inline-block;
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 186px;
+ }
+ .img-call{
+    background-image: url(../img/icon-hotline.png);
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    top: 16px;
+    margin-left: 850px ;
+ }
+ .call{
+    width: 117px;
+    position: absolute;
+    margin-left: 891px;
+    margin-top: -44px;
+    font-size: small;
+ }
+ .img-cor-compra{
+    background-image: url(../img/call-cor.png);
+    width: 5.8%;
+    height: 25px;
+    position: absolute;
+    top: 16px;
+    margin-left: 1004px ;
+    margin-top: 8px;
+ }
+.menu-baix{
+    width: 80%;
+    background-color: yellowgreen;
+    margin-top: 50px;
+    position: relative;
+}
+.menu-home{
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: red;
+    position: absolute;
+    margin-left: 326px;
+    margin-top: -34px;
+}
+.menu-shop{
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    position: absolute;
+    margin-left: 386px;
+    margin-top: -34px;
+}
+.menu-blog{
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    position: absolute;
+    margin-left: 446px;
+    margin-top: -34px;
+}
+.menu-pages{
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    position: absolute;
+    margin-left: 506px;
+    margin-top: -34px;
+}
+.menu-contact{
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    position: absolute;
+    margin-left: 566px;
+    margin-top: -34px;
+}
 
 
 
 
 /* ----------------------------------------------------------------------- */
+
 .container {
     width: auto;
     margin: auto;
+    margin-top: 0px;
     
 }
 
 .img {
     width: 100%;
-    height: 550px;
+    height: 436px;
 }
 
 .img-bg {
-    background-image: url("../img/portada.jpg");
+    background-image: url(../img/portada2.jpg);
     background-size: cover;
+    margin-top: 0px;
+    padding-top: 14px;
+    position: relative;
 }
 
 
 .main-text {
-    width: 700px;
-    margin: auto;
-    margin-top: 50px;
-    color: #ffffff;
-    text-align: left;
-    padding: 100px 600px 0px 0px;
+    color: #ffffff   
     
 }
 
 .main-text > h3 {
-    font-size: 50px;
-    padding: 0px 0px 0px 0px;
+    font-size: 46px;
+    position: absolute;
+    top: 22%;
+    left: 14%;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
 }
-
+.main-text > h4 {
+    font-size: 46px;
+    position: absolute;
+    top: 29%;
+    left: 14%;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+}
 .main-text > p {
 
     width: 550px;
-    margin: auto;
     display: flex;
-    font-size: 20px;
+    font-size: 15px;
+    top: 26%;
+    left: 14%;
+    position: absolute;
 
 }
 
@@ -84,6 +222,9 @@
     text-decoration: none;
     border-radius: 5px;
     font-size: 15px;
+    position: absolute;
+    top: 60%;
+    left: 14%;
     
 }
 /* ______________________________________________________________
@@ -100,50 +241,51 @@
     margin-bottom: 5%;
 }
  .oferta1{
-    background-image: url("../img/oferta1.jpg");
-    width: 45%;
     height: 300px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: inline-block;
-    margin-right: 15px;
+    position: relative;
+    padding-right: 20px;
+    
+}
+.oferta1 > img{
+    width: 100%;
+    height: 100%;
 }
 
 .oferta2{
-    background-image: url("../img/oferta2.jpg");
-    width: 20%;
     height: 300px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: inline-block;
-    margin-right: 15px;
+    position: relative;
+    padding-right: 20px;
 }
-
+.oferta2 > img{
+    width: 100%;
+    height: 100%;
+    
+}
 .oferta3{
-    background-image: url("../img/oferta3.jpg");
-    width: 20%;
     height: 300px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: inline-block;
+    position: relative;
+}
+.oferta3 > img{
+    width: 100%;
+    height: 100%;
 } 
 .oferta1> h4 {
-    font-size: 22px;
+    font-size: 20px;
     font-family: Gilroy, Arial, Helvetica, sans-serif;
     color: white;
     line-height: 0px;
     position: absolute;
-    left: 13%;
-    top: 120%;
+    left: 7%;
+    top: 31%;
 }
 .oferta1> h5 {
-    font-size: 22px;
+    font-size: 20px;
     font-family: Gilroy, Arial, Helvetica, sans-serif;
     color: white;
     line-height: 0px;
     position: absolute;
-    left: 13%;
-    top: 123%;
+    left: 7%;
+    top: 36%;
 }
 .oferta1> h6 {
     font-size: 10px;
@@ -151,8 +293,8 @@
     color: white;
     line-height: 0px;
     position: absolute;
-    left: 13%;
-    top: 129%;
+    left: 7%;
+    top: 46%;
 }
 .button-ofertas1{
     padding: 7px 20px 7px 20px;
@@ -160,10 +302,10 @@
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 14px;
     position: absolute;
-    left: 13%;
-    top: 137%;
+    left: 7%;
+    top: 65%;
     font-family: Gilroy, Arial, Helvetica, sans-serif;
 }
 .oferta2> h4 {
@@ -171,117 +313,118 @@
     color: white;
     line-height: 0px;
     position: absolute;
-    left: 52%;
-    top: 132%;
+    left: 10%;
+    top: 55%;
 }
 .oferta2> h5 {
     font-size: 22px;
     color: white;
     line-height: 0px;
     position: absolute;
-    left: 52%;
-    top: 135%;
+    left: 10%;
+    top: 60%;
 }
 .button-ofertas2{
     padding: 7px 20px 7px 20px;
     color:white;
     font-size: 10px;
     position: absolute;
-    left: 50%;
-    top: 145%;
+    left: 2%;
+    top: 80%;
     font-family: Gilroy, Arial, Helvetica, sans-serif;
 }
-.oferta3> h4 {
-    font-size: 22px;
-    color: white;
-    line-height: 0px;
-    position: absolute;
-    left: 71%;
-    top: 132%;
-}
-.oferta3> h5 {
-    font-size: 22px;
-    color: white;
-    line-height: 0px;
-    position: absolute;
-    left: 71%;
-    top: 134%;
-}
-.button-ofertas3{
-    padding: 7px 20px 7px 20px;
-    color:white;
-    font-size: 10px;
-    position: absolute;
-    left: 70%;
-    top: 145%;
-    font-family: Gilroy, Arial, Helvetica, sans-serif;
-}
+
 
 /* ___________________________________________________________________________
  */
 
  .new-products{
-    background-color: black;
+    background-color: wheat;
     width: 80%;
-    height: 800px;
+    height: 755px;
     margin-left: 10%;
-    margin-top: 1%;
  }
  .title {
-     background-color: blue;
-     width: 80%;
-     height: 80px;
-     margin-left: 10%;
+     background-color:white;
+     width: 100%;
+     height: 110px;
      text-align: center;
-     margin-bottom: -1%;
+     margin-bottom: -2%;
+    margin-top: -1%;
  }
+ .title > h3{
+     font-size: 150%;
+     font-family: Gilroy, Arial, Helvetica, sans-serif;
+ }
+ .title > h4{
+    font-size:72%;
+    margin-top: -2%;
+    color: #9d9d9d;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+ }
+ .submenu-new{
+     font-size: 57%;
+     color: #666;
+     font-family:  Arial;
+     position: relative;
+ }
+ .submenu-men{
+     position: absolute;
+     top: 14%;
+     left: 38%;
+     border-radius:5px;
+
+     color: #f33535;
+ }
+ .submenu-women{
+    position: absolute;
+    top: 14%;
+    left: 44%;  
+}
+.submenu-running{
+    position: absolute;
+    top: 14%;
+    left: 51%;
+}
+.submenu-gym{
+    position: absolute;
+    top: 14%;
+    left: 58%;
+}
  .new-shoes{
-    background-color: green;
-    width: 80%;
-    height: 704px;
-    padding-right: 214px
+    background-color:white;
+    width: 100%;
+    height: 670px;
  }
- .new-shoes1{
-    background-image: url("../img/oferta3.jpg");
-    width: 20%;
-    height: 300px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: inline-block;
-    box-sizing: border-box;
-} 
-.new-shoes2{
-    background-image: url("../img/oferta3.jpg");
-    width: 20%;
-    height: 300px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: inline-block;
-} 
-.new-shoes3{
-    background-image: url("../img/oferta3.jpg");
-    width: 20%;
-    height: 300px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: inline-block;
-} 
-.new-shoes4{
-    background-image: url("../img/oferta3.jpg");
-    width: 20%;
-    height: 300px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: inline-block;
-} 
-.new-shoes5{
-    background-image: url("../img/oferta3.jpg");
-    width: 20%;
-    height: 300px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: inline-block;
-} 
+ .shoes-img > img{
+     width: 100%;
+     height: 100%;
+ }
+ .shoes-txt{
+     position: relative;
+     font-size: 12px;
+ }
+ .shoes-txt > a{
+    color: #1d1d1d;
+    font-family: Arial, Helvetica, sans-serif; 
+
+ }
+ .starts{
+     margin-top: 4%
+ }
+ 
+ .checked {
+    color: yellow;
+  }
+  .shoes-txt > h4{
+    margin-top: 3%;
+ }
+ .carrito{
+    position: absolute;
+    top: 65%;
+    margin-left: 68%;
+ }
+
 
 /* ------------------------------------------------------------------------------- */
 
@@ -290,56 +433,47 @@
     width: 80%;
     height: 450px;
     margin-left: 10%;
-    margin-top: 1%;
  }
 
  .sudadera-men{
-    background-image: url(../img/sudaderamen.jpg);
-    width: 29%;
-    height: 425px;
-    padding-left: 12px;
-    padding-right: 14px;
-    display: inline-block;
-    margin-right: 15px;
-    padding-bottom: 25px;
+    height: 100%;
+    position: relative;
+    padding-right: 20px;
+}
+.sudadera-men > img{
+    width: 100%;
+    height: 100%;
 }
 
 .sudadera-women{
-    background-image: url(../img/sudaderawomen.jpg);
-    width: 29%;
-    height: 425px;
-    padding-left: 11px;
-    padding-right: 14px;
-    display: inline-block;
-    margin-right: 15px;
-    padding-bottom: 25px;
+    height: 100%;
+    position: relative;
+    padding-right: 20px;
 }
-.sudadera-tot{
-    background-color: white;
-    width: 30%;
-    height: 425px;
-    display: inline-block;
-    padding-bottom: 25px;
+.sudadera-women > img{
+    width: 100%;
+    height: 100%;
 }
 .running{
-    background-image: url(../img/sudadera.shoes.jpg);
-    width: 100%;
-    height: 185px;
-    padding-left: 39px;
-    padding-bottom: 29px;
+    height: 100%;
+    position: relative;
 }
-.accesoris{
-    background-image: url(../img/sudadera-shoes2.jpg);
+.running > img{
     width: 100%;
-    height: 183px;
-    padding-left: 39px;
-    padding-bottom: 33px;
-    margin-top: 20px;
-    margin-right: 30px;
+    height: 100%;
+    margin-bottom: 4%;
+}
+.accesori{
+    height: 100%;
+    position: relative;
+}
+.accesori > img{
+    width: 100%;
+    height: 100%;
+    margin-top: -4.5%;
 }
 
-.button-sudaderamen{
-    
+.button-sudadera{   
     padding: 6px 20px 6px 20px;
     color: black;
     background-color: #ffffff;
@@ -347,46 +481,9 @@
     border-radius: 5px;
     font-size: 15px;
     position: absolute;
-    left: 20%;
-    top: 331%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     font-family: Gilroy, Arial, Helvetica, sans-serif;
 }
-.button-sudaderawomen{
-    
-    padding: 6px 20px 6px 20px;
-    color: black;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 15px;
-    position: absolute;
-    left: 46%;
-    top: 331%;
-    font-family: Gilroy, Arial, Helvetica, sans-serif;
-}
-.button-sudaderarunning{
-    
-    padding: 6px 20px 6px 20px;
-    color: black;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 15px;
-    position: absolute;
-    left: 74%;
-    top: 308%;
-    font-family: Gilroy, Arial, Helvetica, sans-serif;
-}
-.button-sudaderaaccessories{
-    
-    padding: 6px 20px 6px 20px;
-    color: black;
-    background-color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 15px;
-    position: absolute;
-    left: 72%;
-    top: 346%;
-    font-family: Gilroy, Arial, Helvetica, sans-serif;
-}
+
