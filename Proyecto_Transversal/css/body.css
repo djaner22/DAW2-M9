@@ -455,22 +455,22 @@ margin: 0%;
     height: 100%;
 }
 .running{
-    height: 100%;
+  
     position: relative;
 }
 .running > img{
-    width: 100%;
-    height: 100%;
-    margin-bottom: 4%;
+    height: auto;
+    max-width: 100%;
+    display: block;
 }
 .accesori{
-    height: 100%;
+  
     position: relative;
 }
 .accesori > img{
-    width: 100%;
-    height: 100%;
-    margin-top: -4.5%;
+    height: auto;
+    max-width: 100%;
+    display: block;
 }
 
 .button-sudadera{   
@@ -491,7 +491,7 @@ margin: 0%;
 .best-sellers{
     background-color: greenyellow;
     width: 80%;
-    height: 600px;
+    height: 590px;
     margin-left: 10%;
     margin-top: 3%;
     margin-bottom: 3%;
@@ -540,6 +540,207 @@ margin: 0%;
    color: #9d9d9d;
    font-family: Gilroy, Arial, Helvetica, sans-serif;
 }
-.shoes-best-sellers{
-    margin-top: -2%;
+
+
+/* -------------------------------------------------------------- */
+.icons{
+    background: #f33535;
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 4%;
+ }
+ .txt-caixa-red > h4 {
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+    margin-left: 33%;
+    font-size: 89%;
+    color: white;
 }
+ 
+ .txt-caixa-red > h6 {
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    margin-left: 33%;
+    margin-top: -5%;
+    font-size: 62%;
+    color: white;
+}
+.caixa-red-img{
+    margin-left: 9%;
+    margin-top: -22%;
+}
+
+/* ------------------------------------------------------------ */
+
+.latest-blogs{
+    background: white;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-bottom: 2%;
+
+}
+.title-latest-blogs {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+.title-latest-blogs > h3{
+    font-size: 150%;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+}
+.title-latest-blogs> h4{
+   font-size:72%;
+   margin-top: -2%;
+   color: #9d9d9d;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog-img{
+    padding-right: 25px;
+ 
+}
+
+.blog-img > img{
+width: 100%;
+
+}
+.txt-blog > a{
+    color:#f33535; 
+    font-size: 65%;
+}
+.txt-blog > h4{
+    font-size: 80%;
+    margin-bottom: -3%;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.txt-blog > h6{
+    color: #626262;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    font-size: 9px;
+}
+
+/* ------------------------------------------------------------ */
+
+.codis{
+    background: white;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    padding: 25px 0px 25px 0;
+    border-top: 1px solid #ebebeb;
+}
+/* ------------------------------------------------------------ */
+
+.footer{
+    background:#f6f6f6;
+    width: auto;
+    height: auto;
+
+}
+.footer-bo{
+    background:#efefef;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.information{
+    background-color: #f6f6f6;
+    width: auto;
+    height: auto;
+    padding: 40px 20px 35px 0;
+    position: relative;
+}
+
+.junno-title > img{
+    width: 30%
+}
+
+.txt-information > h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 1.7;
+}
+
+.need-txt > h4{
+    font-size: 94%;
+    color: #626262;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 40%;
+    margin-left: 14%;
+}
+.need-txt > p{
+    font-size: 107%;
+    color: #1d1d1d;
+    position: absolute;
+    top: 46%;
+    margin-left: 14%;
+}
+.media{
+    margin-top: 7%;
+
+}
+.media > img{
+    width: auto;
+}
+
+.copyright > h6{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.about-us{
+    width: auto;
+    height: auto;
+    padding: 40px 20px 35px 20px;
+    position: relative;
+}
+.title-footer > h3{
+
+    font-size: 1.1429em;
+    line-height: 1;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e3e3e3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list-footer > p{
+
+    line-height: 1;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    font-size: x-small;
+}
+.visa > img{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    margin-left: -3%;
+}
+
+.newsletter{
+    background-color:#efefef;
+    width: auto;
+    height: auto;
+    padding: 40px 0px 35px 20px;
+    margin-right: -72px;
+}
+.title-newsletter > h3{
+
+    font-size: 1.1429em;
+    line-height: 1;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e3e3e3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.android-app > img{
+    margin-top: 5%;
+}
+
