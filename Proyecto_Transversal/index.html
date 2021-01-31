@@ -3,11 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
   <title>Junno Shop</title>
-
-  <link rel="stylesheet" type="text/css" href="css/footer.css">
   <link rel="stylesheet" type="text/css" href="css/body.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
 </head>
 
 <body>
@@ -33,53 +35,63 @@
   </header>
 
   <div class="menu">
-    <div class="menu-dalt">
-      <div class="logo">
+
+
+
+    <div class="menu-dalt row">
+
+      <div class="col-2">
+        <div class="logo">
+          <img src="../Proyecto_Transversal/img/logo.png">
+        </div>
       </div>
-      <div class="search">
+
+      <div class="col-5">
+        <div class="search">
+          <img src="../Proyecto_Transversal/img/search.png">
+        </div>
       </div>
-      <div class="img-call">
-      </div>
-      <div class="call">
-        <p>Call Us:
-          <br>
-          <strong>(+123) 456 7890</strong>
-        </p>
-      </div>
-      <div class="img-cor-compra">
+
+      <div class="col-5">
+        <div class="call-menu">
+          <div class="phone-menu">
+            <img src="./img/icon-hotline.png">
+          </div>
+          <div class="txt-phone">
+            <h5>Call Us:</h5>
+            <p><strong>(+123) 456 7890 </strong></p>
+          </div>
+          <div class="call-cor">
+            <img src="./img/call-cor.png">
+          </div>
+        </div>
       </div>
     </div>
+
     <div class="menu-baix">
-      <div class="menu-home">
-        <strong>
-          <p>HOME ∨</p>
-        </strong>
-      </div>
-      <div class="menu-shop">
-        <strong>
-          <p>SHOP ∨</p>
-        </strong>
-      </div>
-      <div class="menu-blog">
-        <strong>
-          <p>BLOG ∨</p>
-        </strong>
-      </div>
-      <div class="menu-pages">
-        <strong>
-          <p>PAGES ∨</p>
-        </strong>
-      </div>
-      <div class="menu-contact">
-        <strong>
-          <p>CONTACT ∨</p>
-        </strong>
-      </div>
+      <ul id="lista1">
+        <li>
+            <span style="color: red;">HOME ∨</a>
+        </li>
+        <li>
+            <a href="">SHOP ∨</a>
+        </li>
+        <li>
+            <a href="">BLOG ∨</a>
+        </li>
+        <li>
+            <a href="">PAGES ∨</a>
+        </li>
+        <li>
+            <a href="">CONTACT</a>
+        </li>
+    </ul>
     </div>
+
   </div>
 
-  <div class="img img-bg">
-    <div class="container">
+  <div class="img img-bg raw">
+    <div class="container col-12">
       <div class="main-text">
         <p>NEW ARRIVALS</p>
         <h3>Sumer Sale</h3>
@@ -122,8 +134,8 @@
 
 
 
-  <div class="new-products">
-    <div class="title">
+  <div class="new-products row">
+    <div class="title col-12">
       <h3>New Products</h3>
       <h4>Recently added our store</h4>
       <div class="submenu-new">
@@ -141,8 +153,7 @@
         </div>
       </div>
     </div>
-    <div class="new-shoes">
-      <div class="row">
+    <div class="new-shoes-row">
         <div class="col-2-5">
           <div class="shoes-img">
             <img src="../Proyecto_Transversal/img/shoes/1.jpg">
@@ -243,8 +254,7 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
+     
         <div class="col-2-5">
           <div class="shoes-img">
             <img src="../Proyecto_Transversal/img/shoes/6.jpg">
@@ -347,23 +357,23 @@
             </div>
           </div>
         </div>
-      </div>
+      
     </div>
   </div>
   <div class="sudaderas row">
-    <div class="col-4">
+    <div class="col-sm-4 col-4">
       <div class="sudadera-men">
         <img src="../Proyecto_Transversal/img/sudaderamen.jpg">
         <a class="button-sudadera" href="#">MEN'S</a>
       </div>
     </div>
-    <div class="col-4">
+    <div class="col-sm-4 col-4">
       <div class="sudadera-women">
         <img src="../Proyecto_Transversal/img/sudaderawomen.jpg">
         <a class="button-sudadera" href="#">WOMEN'S</a>
       </div>
     </div>
-    <div class="col-4">
+    <div class="col-sm-4 col-4">
       <div class="running">
         <img src="../Proyecto_Transversal/img/sudadera.shoes.jpg">
         <a class="button-sudadera" href="#">RUNNIG</a>
@@ -374,16 +384,46 @@
       </div>
     </div>
   </div>
-  <!-- ------------------------------------------------
- -->
+
   <div class="best-sellers row">
+
 
     <div class="col-4">
       <div class="hot-deals">
         <h4>Hot Deals</h4>
         <img src="../Proyecto_Transversal/img/hot-deals.jpg">
+
+        <div class="caixa-hot-deals">
+          <div class="compartir-lupa">
+            <img src="../Proyecto_Transversal/img/lupa.PNG">
+          </div>
+          <div class="txt-hot-deals">
+            <p>Altra Torin 4 Plush Women's Runnnig Shoes</p>
+          </div>
+          <div class="starts-hot-deals">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <div class="preu-hot-deals">
+            <h4><strong><span style="text-decoration: line-through;">$68.00 </span> <span style="color: red;">
+                  $60.00</span></strong></h4>
+          </div>
+          <div class="compartir-lupa-available">
+            <img src="../Proyecto_Transversal/img/available.PNG">
+          </div>
+          <div class="compartir-lupa-available">
+            <img src="../Proyecto_Transversal/img/contador.PNG">
+          </div>
+        </div>
       </div>
     </div>
+
+
+
+
     <div class="col-8">
       <div class="best-seller-caixa">
         <div class="title-best">
@@ -601,8 +641,8 @@
     </div>
   </div>
 
-  <div class="latest-blogs">
-    <div class="title-latest-blogs">
+  <div class="latest-blogs row">
+    <div class="title-latest-blogs col-12">
       <h3>Latest Blogs</h3>
       <h4>Present posts in a best way to highlight interesting of your blog</h4>
     </div>

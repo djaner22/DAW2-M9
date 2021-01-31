@@ -37,6 +37,7 @@ margin: 0%;
     font-family: Gilroy, Arial, Helvetica, sans-serif;
     font-size: 11px;
     display: inline-block;
+    padding-left: 1%;
 }
 .opciones{
     color: white;
@@ -60,103 +61,84 @@ margin: 0%;
 /* ----------------------------------------------------------------------- */
 
 .menu{
-    width: 100%;
     background-color: white;
-    margin:auto;
-    
 }
 .menu-dalt{
     width: 80%;
-    margin:auto;
+    margin-left: 10%;
+    height: auto;
     background-color: white;
-    padding-top: 49px;
-    margin-bottom: -12px;
-    position: relative;
 }
 .logo{
-    background-image: url(../img/logo.png);
-    width: 100px;
-    height: 26px;
-    display: inline-block;
-    position: absolute;
-    margin-top: -31px;
-    margin-left: -1px;
+    background-color: white;
+    padding-top: 10%;
 }
- .search{
-    background-image: url(../img/search.png);
-    width: 422px;
-    height: 37px;
-    display: inline-block;
-    position: absolute;
-    margin-top: -37px;
-    margin-left: 186px;
- }
- .img-call{
-    background-image: url(../img/icon-hotline.png);
-    width: 37px;
-    height: 37px;
-    position: absolute;
-    top: 16px;
-    margin-left: 850px ;
- }
- .call{
-    width: 117px;
-    position: absolute;
-    margin-left: 891px;
-    margin-top: -44px;
-    font-size: small;
- }
- .img-cor-compra{
-    background-image: url(../img/call-cor.png);
-    width: 5.8%;
-    height: 25px;
-    position: absolute;
-    top: 16px;
-    margin-left: 1004px ;
-    margin-top: 8px;
- }
-.menu-baix{
-    width: 80%;
-    background-color: yellowgreen;
-    margin-top: 50px;
+.logo > img{
+    width: auto;
+    height: auto;
+}
+.search{
+    background-color: white;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+.call-menu{
+
     position: relative;
 }
-.menu-home{
-    font-family: Gilroy, Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    color: red;
-    position: absolute;
-    margin-left: 326px;
-    margin-top: -34px;
+.phone-menu > img{
+    padding-left: 52%;
 }
-.menu-shop{
-    font-family: Gilroy, Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    position: absolute;
-    margin-left: 386px;
-    margin-top: -34px;
+.txt-phone{
+    
+    margin-left: -15%;
 }
-.menu-blog{
-    font-family: Gilroy, Arial, Helvetica, sans-serif;
-    font-size: 10px;
+.txt-phone > h5{
     position: absolute;
-    margin-left: 446px;
-    margin-top: -34px;
+    top: -50%;
+    margin-left: 75%;
+    color: #626262;
+    font-size: 80%;
 }
-.menu-pages{
-    font-family: Gilroy, Arial, Helvetica, sans-serif;
-    font-size: 10px;
+.txt-phone > p{
     position: absolute;
-    margin-left: 506px;
-    margin-top: -34px;
+    top: 5%;
+    margin-left: 75%;
+    font-size: 85%;
 }
-.menu-contact{
-    font-family: Gilroy, Arial, Helvetica, sans-serif;
-    font-size: 10px;
+.call-cor > img{
+    left: 85%;
+    top: 10%;
     position: absolute;
-    margin-left: 566px;
-    margin-top: -34px;
 }
+.menu-baix{
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    background-color: white;
+}
+
+#lista1 {
+    font-family:Arial;
+    font-weight:bold;
+    font-size:11px;
+    margin-left: 16%;
+}
+
+#lista1 li {
+     display:inline;
+     padding-left:15px;
+     padding-right:3px;
+}
+a {
+    color:black;
+    text-decoration:none;
+}
+a:hover {
+    background-color:lightgray;
+}
+ 
+ 
 
 
 
@@ -239,6 +221,8 @@ margin: 0%;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
+
+    flex-flow: wrap;
 }
  .oferta1{
     height: 300px;
@@ -339,9 +323,8 @@ margin: 0%;
  */
 
  .new-products{
-    background-color: wheat;
+    background-color: white;
     width: 80%;
-    height: 755px;
     margin-left: 10%;
  }
  .title {
@@ -399,10 +382,12 @@ margin: 0%;
  .shoes-img > img{
      width: 100%;
      height: 100%;
+     background-color:white;
  }
  .shoes-txt{
      position: relative;
      font-size: 12px;
+     background-color:white;
  }
  .shoes-txt > a{
     color: #1d1d1d;
@@ -431,7 +416,7 @@ margin: 0%;
 .sudaderas{
     background-color: white;
     width: 80%;
-    height: 450px;
+    margin-top: 15px;
     margin-left: 10%;
  }
 
@@ -489,17 +474,16 @@ margin: 0%;
 /* ------------------------------------------ */
 
 .best-sellers{
-    background-color: greenyellow;
+    background-color: white;
     width: 80%;
-    height: 590px;
     margin-left: 10%;
     margin-top: 3%;
     margin-bottom: 3%;
    
  }
  .hot-deals{
-     background-color: hotpink;
-     height: 100%;
+     background-color: white;
+     height: auto;
      position: relative;
      margin-right: 6%;
      border: 2px solid #f33535;
@@ -512,13 +496,20 @@ margin: 0%;
    font-size: 125%;
    font-family: Gilroy, Arial, Helvetica, sans-serif;
 }
+.caixa-hot-deals{
+    height: auto;
+    text-align: center;
+}
+.txt-hot-deals > p{
+    font-size: 73%;
+    color: #1d1d1d;
+}
+
 
  
  .hot-deals> img{
     width: 100%;
-    height: 100%;
-   border-radius: 5%;
-    border-color: red;
+
  }
  .best-seller-caixa{
      background-color: white;
@@ -541,12 +532,15 @@ margin: 0%;
    font-family: Gilroy, Arial, Helvetica, sans-serif;
 }
 
+.compartir-lupa-available > img{
+    width: 100%;
+}
+
 
 /* -------------------------------------------------------------- */
 .icons{
     background: #f33535;
     width: 80%;
-    height: 100px;
     margin-left: 10%;
     margin-top: 4%;
  }
@@ -672,14 +666,14 @@ width: 100%;
     color: #626262;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    top: 40%;
+    top: 37%;
     margin-left: 14%;
 }
 .need-txt > p{
     font-size: 107%;
     color: #1d1d1d;
     position: absolute;
-    top: 46%;
+    top: 43%;
     margin-left: 14%;
 }
 .media{
@@ -703,7 +697,7 @@ width: 100%;
 }
 .title-footer > h3{
 
-    font-size: 1.1429em;
+    font-size: 75%;
     line-height: 1;
     padding-bottom: 12px;
     border-bottom: 1px solid #e3e3e3;
@@ -734,13 +728,19 @@ width: 100%;
 }
 .title-newsletter > h3{
 
-    font-size: 1.1429em;
+    font-size: 75%;
     line-height: 1;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
     border-bottom: 1px solid #e3e3e3;
     font-family: Arial, Helvetica, sans-serif;
 }
 .android-app > img{
-    margin-top: 5%;
+    width: 100%;
+    display: none;
 }
+.email-addres > img{
+    width: 100%;
+    display: none;
+}
+
 
