@@ -83,11 +83,11 @@ margin: 0%;
     padding-left: 10%;
 }
 .call-menu{
-
+   
     position: relative;
 }
 .phone-menu > img{
-    padding-left: 52%;
+    padding-left: 50%;
 }
 .txt-phone{
     
@@ -107,7 +107,7 @@ margin: 0%;
     font-size: 85%;
 }
 .call-cor > img{
-    left: 85%;
+    left: 87%;
     top: 10%;
     position: absolute;
 }
@@ -543,6 +543,7 @@ a:hover {
     width: 80%;
     margin-left: 10%;
     margin-top: 4%;
+    align-items: center;
  }
  .txt-caixa-red > h4 {
     font-family: Gilroy, Arial, Helvetica, sans-serif;
