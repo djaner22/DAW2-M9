@@ -71,7 +71,7 @@ margin: 0%;
 }
 .logo{
     background-color: white;
-    padding-top: 10%;
+    margin-top: 1%;
 }
 .logo > img{
     width: auto;
@@ -114,6 +114,7 @@ margin: 0%;
 .menu-baix{
     width: 80%;
     margin-left: 10%;
+    margin-top: -2%;
     height: auto;
     background-color: white;
 }
@@ -206,8 +207,12 @@ a:hover {
     font-size: 15px;
     position: absolute;
     top: 60%;
-    left: 14%;
-    
+    left: 14%;   
+}
+.audio{
+    position: absolute;
+    top: 70%;
+    left: 14%;   
 }
 /* ______________________________________________________________
  */
