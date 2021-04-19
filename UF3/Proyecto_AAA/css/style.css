@@ -92,7 +92,7 @@ p {
 }
 
 footer div.copyright a {
-    color: #fff;
+    color: e84708s;
 }
 
 footer div.copyright a:hover,
@@ -543,7 +543,7 @@ footer .d-flex + div input[type="submit"] {
     width: 120px;
     border: none;
     background-color: #ea4808;
-    color: #FFF;
+    color: rgb(206, 17, 17);
     font-size: 16px;
 }
 
@@ -755,7 +755,7 @@ footer .copyright p {
     }
     .services .item {
         background-color: #2c73e8;
-        color: white;
+        color: rgb(208, 20, 20);
     }
     .services .item a, .services .item a:hover{
         color: white;
