@@ -8,7 +8,7 @@ body {
 }
 
 .white-overlay {
-    background-color: rgba(255,255,255,0.65);
+    background-color: rgb(255, 255, 255);
     height: 100%;
     width: 100%;
 }
@@ -18,7 +18,7 @@ a:hover {
 }
 
 h2 span {
-    color: #2c73e8;
+    color: #4e00e9;
 }
 
 li {
@@ -64,7 +64,7 @@ h2 {
 }
 
 .navbar ul.navbar-nav li.active a {
-    color: #2c73e8 !important;
+    color: #000 !important;
 }
 
 .navbar ul.navbar-nav li i {
@@ -86,13 +86,13 @@ p {
 }
 
 .navbar ul.navbar-nav li form input {
-    border: 1px solid #cbc8c8;
-    background-color: #e2dfdf;
+    border: 1px solid #FFF;
+    background-color: #fff;
     width: 100%;
 }
 
 footer div.copyright a {
-    color: #e84708;
+    color: #000;
 }
 
 footer div.copyright a:hover,
@@ -103,7 +103,7 @@ footer div.copyright a:focus {
 /* header */
 
 header .row > div:first-of-type {
-    background-color: #2c73e8;
+    background-color: #000;
     margin-top: 94px;
     color: #FFF;
 }
@@ -117,7 +117,7 @@ header .row > div:first-of-type p {
 }
 
 header .row > div:first-of-type p span {
-    color: #000;
+    color: #fff;
 }
 
 header .row > div:first-of-type button {
@@ -125,7 +125,7 @@ header .row > div:first-of-type button {
     margin: 0 auto;
     position: absolute;
     bottom: 0;
-    background-color: #2c73e8;
+    background-color: #000;
     box-shadow: 0 0 25px -6px #000;
     border: none;
     left: 0;
@@ -136,7 +136,7 @@ header .row > div:first-of-type button {
 header .row > div:first-of-type button a {
     display: block;
     padding: 0 40px;
-    color: #FFF;
+    color: #fff;
     height: 65px;
     width: auto;
     line-height: 63px;
@@ -157,12 +157,12 @@ header .row > div:last-of-type button {
     display: block;
     margin: 0 auto;
     background-color: transparent;
-    border: 2px solid #2c73e8;
+    border: 2px solid #000;
     padding: 0;
 }
 
 header .row > div:last-of-type button:hover {
-    background-color: #2c73e8;
+    background-color: #000;
 }
 
 header .row > div:last-of-type button:hover a {
@@ -183,7 +183,7 @@ header .row > div:last-of-type button a {
 }
 
 .about-us strong{
-    color: #2c73e8;
+    color: #000;
 }
 
 .about-us h1 {
@@ -237,6 +237,7 @@ header .row > div:last-of-type button a {
 
 .services h2 + p {
     margin-bottom: 100px;
+    color: yellow;
 }
 
 .services .item {
@@ -285,7 +286,7 @@ header .row > div:last-of-type button a {
 
 .services button:hover {
     background-color: #2c73e8;
-    border: 1px solid #2c73e8;
+    border: 1px solid #000;
 }
 
 .services button:hover a {
@@ -300,7 +301,7 @@ header .row > div:last-of-type button a {
     z-index: -1; 
     right: -85px; 
     bottom: 95px;
-    background-color: #2c73e8;
+    background-color: #000;
 }
 
 /* what we do */
@@ -322,7 +323,7 @@ header .row > div:last-of-type button a {
 .what-we-do .img {
     height: 300px;
     width: 100%;
-    box-shadow: 3px 3px 10px #d9d5d5, -3px -3px 10px #d9d5d5;
+    box-shadow: 3px 3px 10px #FFF, -3px -3px 10px #fff;
     background-image: url('../imgs/about-us.jpg');
     background-size: cover;
 }
@@ -336,7 +337,7 @@ header .row > div:last-of-type button a {
     display: block;
     margin: 0 auto;
     color: #FFF;
-    background-color: #2c73e8;
+    background-color: #000;
     bottom: 39px;
     cursor: pointer;
 }
@@ -346,11 +347,17 @@ header .row > div:last-of-type button a {
     position: relative;
     left: 2px;
 }
+.services h2 + p{
+    color: #4e00e9;
+}
 
 /* prices */
 
 .prices h2 {
     margin-bottom: 100px;
+}
+.text-uppercase{
+    color: #4e00e9;
 }
 
 .prices .item > div:last-of-type{
@@ -360,7 +367,7 @@ header .row > div:last-of-type button a {
 
 .prices .item > div:first-of-type{
     padding: 20px;
-    background-color: #e84708;
+    background-color: #000;
     color: #FFF;
     text-align: center;
     border-top-right-radius: 50px;
@@ -374,13 +381,13 @@ header .row > div:last-of-type button a {
 }
 
 .prices .item > div:last-of-type p span:first-of-type {
-    color: #e84708;
+    color: #000;
     font-weight: bold;
     font-size: 25px;
 }
 
 .prices .item > div:last-of-type p span:nth-of-type(2) {
-    color: #2c73e8;
+    color: #000;
     font-weight: bold;
     font-size: 35px;
 }
@@ -396,16 +403,16 @@ header .row > div:last-of-type button a {
 .prices .item > div:last-of-type ul li{
     padding: 20px 0;
     list-style-type: none;
-    border-top: 1px solid #898989;
-    color: #898989;
+    border-top: 1px solid #000;
+    color: #000;
 }
 
 .prices .item > div:last-of-type ul li:last-of-type{
-    border-bottom: 1px solid #898989;
+    border-bottom: 1px solid #000;
 }
 
 .prices .item > div:last-of-type button {
-    background: #2c73e8;
+    background: #000;
     border: none;
     padding: 0;
     margin-bottom: 30px;
@@ -421,18 +428,18 @@ header .row > div:last-of-type button a {
 .prices .row .item.active {
     border-radius: 50px;
     border-top-left-radius: 0;
-    box-shadow: 6px 6px 10px #d9d5d5, -6px -6px 10px #d9d5d5;
+    box-shadow: 6px 6px 10px #fff, -6px -6px 10px #fff;
     position: relative;
     bottom: 60px;
 }
 
 .prices .row .item.active button {
-    background-color: #e84708;
+    background-color: #000;
 }
 
 .prices .row .item.active > div:first-of-type{
     padding: 35px 0;
-    background-color: #2c73e8;
+    background-color: #000;
 }
 
 .prices .row .item.active > div:last-of-type p {
@@ -483,7 +490,7 @@ header .row > div:last-of-type button a {
 .contact .contact-form input[type="submit"] {
     margin-bottom: 0;
     margin-top: 10px;
-    background-color: #e84708;
+    background-color: #000;
     border: none;
     padding: 10px 30px;
     color: #FFF;
@@ -493,20 +500,20 @@ header .row > div:last-of-type button a {
 /* footer */
 
 footer {
-    color: #FFF;
+    color: #000;
 }
 
 footer .main-part {
-    background-color: #06395a;
+    background-color: yellow;
 }
 
 footer .d-flex {
     padding: 20px 0;
-    border-bottom: 1px solid #DDD;
+    border-bottom: 1px solid #000;
 }
 
 footer a {
-    color: white
+    color: #000;
 }
 
 footer ul {
@@ -554,6 +561,7 @@ footer .copyright {
 
 footer .copyright p {
     margin: 0;
+    color: yellow;
 }
 
 /* media queries */
